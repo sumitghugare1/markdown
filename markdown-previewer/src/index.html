@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Markdown Previewer</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/11.1.0/marked.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Markdown Previewer</h1>
+        <button id="toggle-theme">Toggle Dark Mode</button>
+    </header>
+    <div class="container">
+        <textarea id="markdown-input" placeholder="Type your Markdown here..."></textarea>
+        <div class="preview" id="preview"></div>
+    </div>
+    <footer>
+        <button id="clear-button">Clear</button>
+    </footer>
+    <script src="scripts/app.js"></script>
+</body>
+</html>
